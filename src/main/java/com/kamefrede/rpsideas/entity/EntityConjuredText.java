@@ -82,7 +82,7 @@ public class EntityConjuredText extends Entity implements ISpellImmune {
     }
 
     public String getText() {
-        return dataManager.get(TEXT_DATA);
+        return String.valueOf(dataManager.get(TEXT_DATA));
     }
 
     public int getColor() {
